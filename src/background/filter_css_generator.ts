@@ -202,7 +202,7 @@
             var result = selectorsToFix + ' { -webkit-filter: ';
 
             // Less/more brightness for inverted items
-            result += 'brightness(' + (config.brightness - 20) + '%) ';
+            result += 'brightness(' + (config.brightness - 0) + '%) ';
 
             result += 'invert(100%) hue-rotate(180deg) ';
 
