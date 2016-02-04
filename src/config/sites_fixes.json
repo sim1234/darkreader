@@ -7,7 +7,7 @@
         },
         {
             "url": "facebook.com",
-            "selectors": "{common}, ._3ixn, ._2teu, .uiStreamStory",
+            "selectors": "{common}, ._3ixn, ._2teu, .uiStreamStory, .emoticon",
             "rules": "._4d3w .stageWrapper { background: white; } .uiStreamStory video { -webkit-filter: none !important; }"
         },
         {
@@ -78,7 +78,7 @@
         },
         {
             "url": "youtube.com",
-            "selectors": "iframe, .html5-video-player, .has-custom-banner, #theater-background, #watch-appbar-playlist, *:not(.html5-video-player):not(.channel-header-profile-image-container):not(.html5-storyboard-filmstrip):not(.html5-storyboard-framepreview):not(.html5-storyboard-lens) > img"
+            "selectors": "iframe, .html5-video-player, .has-custom-banner, #theater-background, .watch-playlist, #watch7-user-header img, .yt-uix-clickcard img, #yt-comments-sb-container img, .yt-pl-thumb img, .guide-channels-content img, .yt-masthead-account-picker img, *:not(.html5-video-player):not(.channel-header-profile-image-container):not(.html5-storyboard-filmstrip):not(.html5-storyboard-framepreview):not(.html5-storyboard-lens):not(.yt-thumb-clip) > img"
         }
     ]
 }
